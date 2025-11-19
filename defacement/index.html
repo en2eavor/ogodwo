@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACKED BY Ogodwo_Gr0uP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="glitch" data-text="HACKED">HACKED</div>
+        <div class="skull">
+            <pre>
+    ░░░░░███████ ]▄▄▄▄▄▄▄▄
+    ▂▄▅█████████▅▄▃▂
+    ███████████████████]
+    ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤
+            </pre>
+        </div>
+        <h1 class="hacker-group">BY Ogodwo_Gr0uP</h1>
+        
+        <div class="message">
+            <p class="warning">YOUR SECURITY IS A JOKE</p>
+            <p>We own your server now.</p>
+            <p>Your data belongs to us.</p>
+            <p>Your firewall? Bypassed.</p>
+            <p>Your encryption? Cracked.</p>
+            <p>Your admin password? Too easy...</p>
+        </div>
+
+        <div class="signature">
+            <p>We left something behind for the curious ones...</p>
+            <p class="hint">Find us if you dare. We're everywhere.</p>
+            <!-- OSINT Hint: Try searching for Ogodwo_Gr0uP on social media -->
+            <!-- Hint: Check Reddit, we love to brag about our exploits -->
+        </div>
+
+        <div class="footer">
+            <p>⚠️ System Compromised ⚠️</p>
+            <p class="timestamp">Breach Time: 2025-01-15 03:37:00 UTC</p>
+        </div>
+    </div>
+
+    <div class="matrix"></div>
+
+    <script>
+        // Matrix rain effect
+        const matrix = document.querySelector('.matrix');
+        const chars = '01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン';
+        
+        setInterval(() => {
+            const span = document.createElement('span');
+            span.textContent = chars[Math.floor(Math.random() * chars.length)];
+            span.style.left = Math.random() * 100 + '%';
+            span.style.animationDuration = (Math.random() * 2 + 3) + 's';
+            matrix.appendChild(span);
+            
+            setTimeout(() => span.remove(), 5000);
+        }, 100);
+    </script>
+</body>
+</html>
